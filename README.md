@@ -42,7 +42,7 @@ SELECT * FROM Employees WHERE name LIKE 'J%';
 
 SELECT * FROM Employees WHERE department IS NULL;
 SELECT * FROM Employees WHERE age IS NOT NULL;
-```
+
 
 SELECT * FROM Employees 
 WHERE department IN ('Sales', 'Marketing');
@@ -50,7 +50,7 @@ WHERE department IN ('Sales', 'Marketing');
 SELECT * FROM Employees 
 WHERE department NOT IN ('Sales', 'Marketing');
 
-
+```
 📄 License
 
 This project is open-source and free to use.
