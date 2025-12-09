@@ -1,8 +1,4 @@
-# 🗄️ Employee Database SQL Script
-
-This repository contains an SQL script that creates and populates an **Employee Database**, along with multiple example queries demonstrating filtering, pattern matching, and NULL handling in SQL.
-
----
+# 🗄️ Employee Database SQL 
 
 ## 📌 Overview
 
@@ -57,4 +53,4 @@ WHERE department NOT IN ('Sales', 'Marketing');
 ```
 📄 License
 
-This project is open-source and free to use.
+This code is open-source and free to use.
