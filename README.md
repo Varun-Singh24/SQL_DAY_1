@@ -40,13 +40,13 @@ Use of `LIKE` for name-based search:
 SELECT * FROM Employees WHERE name LIKE 'J%';
 
 ```
-####🔹 NULL Handling
+#### 🔹 NULL Handling
 ```
 SELECT * FROM Employees WHERE department IS NULL;
 SELECT * FROM Employees WHERE age IS NOT NULL;
 ```
 
-####🔹 IN / NOT IN Usage
+#### 🔹 IN / NOT IN Usage
 ```
 SELECT * FROM Employees 
 WHERE department IN ('Sales', 'Marketing');
